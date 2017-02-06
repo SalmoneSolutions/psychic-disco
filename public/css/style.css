@@ -429,7 +429,7 @@ small{
 
 /*========== 4.1 HEADER STYLES  ==========*/
 .header-section {
-  background: rgba(0, 0, 0, 0) url("../images/3.jpg") no-repeat fixed center center / cover ;
+  background: url("../images/3.jpg") no-repeat fixed center center / cover ;
 }
 .header-logo img{
 	width:10%;
