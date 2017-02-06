@@ -209,7 +209,9 @@ li {
 /*=========================================
 =           3.COMPONENTS STYLES            =
 =========================================*/
-
+.full-page-content{
+	padding-bottom:20%;
+}
 /*========== 3.1 BACKGROUNDs,COLORS, OVERLAY & LAYOUTS  ==========*/
 .section-bg-color {
   background: rgba(222, 222, 222, 0.24) none repeat scroll 0 0;
@@ -225,7 +227,7 @@ li {
 .header-section .color-overlay,
 .email-subscribtion-section .color-overlay{
 	padding-top: 75px;
-	padding-bottom: 75px
+	padding-bottom: 160px;
 }
 
 .section-heading-white h2, .section-heading-white h4{
@@ -406,6 +408,11 @@ h6 {
 
 h6 .description{
 	color:#56C201;
+}
+small{
+	color:#fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+
 }
 .left-about{
 	background: rgba(114, 114, 114,.8);

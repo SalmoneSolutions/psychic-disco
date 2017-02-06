@@ -19,7 +19,7 @@
 	$('.wodry').wodry({
 
     //Set your settings
-     animation:'scaleAll'
+     animation:'rotateX'
 
 	});
 	/*You can modify effect and timing for text sliding.More - http://daynin.github.io/wodry/#settings*/
