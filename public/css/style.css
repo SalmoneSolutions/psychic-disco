@@ -354,12 +354,15 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Arial';
+
 	margin-bottom: 0;
 	margin-top: 0;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
+	color:#fff;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 2.813rem;
 	line-height: 3.75rem;
 	font-weight: 500;
@@ -381,7 +384,7 @@ h3 {
 h4 {
 	font-size: 1.25rem;
 	line-height: 2rem;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 h5 {
@@ -397,11 +400,18 @@ h5 {
 h6 {
 	font-size: 20px;
 	line-height: 25px;
-	font-weight: 700;
+	font-weight: 300;
 	color:#fff;
 }
 
-
+h6 .description{
+	color:#56C201;
+}
+.left-about{
+	background: rgba(114, 114, 114,.8);
+	color:#fff;
+	padding:5%;
+}
 
 /*==================================================
 =            4. SECTION SPECIFIC STYLES            =
@@ -412,12 +422,14 @@ h6 {
 
 /*========== 4.1 HEADER STYLES  ==========*/
 .header-section {
-  background: rgba(0, 0, 0, 0) url("../images/header-bg.jpg") no-repeat fixed center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../images/3.jpg") no-repeat fixed center center / cover ;
 }
-
+.header-logo img{
+	width:10%;
+}
 .header-text {
-  margin-bottom: 70px;
-  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-top: 50px;
   padding:10px;
 }
 .header-text h1{

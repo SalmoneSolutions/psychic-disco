@@ -1,6 +1,6 @@
 /* --------------------------------------
 =========================================
-Landro - Responsive Landing Page 
+Landro - Responsive Landing Page
 Version: 1.0 (Initial Release)
 Designed By: Omar Faruk
 =========================================
@@ -37,7 +37,7 @@ Designed By: Omar Faruk
     -4.5 FAQ SECTION STYLES.
     -4.6 PRICING TABLE STYLES
     -4.7 EMAIL SUBSCRIBTION SECTION STYLES.
-    -4.8 FOOTER SECTION STYLES 
+    -4.8 FOOTER SECTION STYLES
 
 
 
@@ -195,7 +195,7 @@ ol {
 
 li {
 	list-style: none;
-} 
+}
 
 
 
@@ -272,7 +272,7 @@ li {
 
 
 .boder-from-left::before {
-  
+
   bottom: 0;
   content: "";
   height: 4px;
@@ -403,7 +403,7 @@ h6 {
 
 /*========== 4.1 HEADER STYLES  ==========*/
 .header-section {
-  background: rgba(0, 0, 0, 0) url("../images/header-bg.jpg") no-repeat fixed center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../images/body.jpg") no-repeat fixed center center / cover ;
 }
 
 .header-text {
@@ -648,7 +648,7 @@ h6 {
 ..pricing-table-content {
   padding-bottom: 30px;
   padding-top: 30px;
-} 
+}
 .single-pricing-table span {
   font-size: 20px;
 }

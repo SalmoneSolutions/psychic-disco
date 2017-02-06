@@ -1,5 +1,5 @@
 (function ($) {
-    
+
     "use strict";
 
     /*==========  OWL ACTIVATOR SCRIPT  ==========*/
@@ -12,14 +12,14 @@
 				autoPlay : true,
 				stopOnHover : true
 
-		      });    
+		      });
 	/*You can modify it as you want .More - http://www.owlgraphic.com/owlcarousel/index.html#customizing */
- 
+
 	/*==========  WODRY TEXT SLIDING ACTIVATOR  ==========*/
 	$('.wodry').wodry({
 
     //Set your settings
-     animation:'rotateX'
+     animation:'scaleAll'
 
 	});
 	/*You can modify effect and timing for text sliding.More - http://daynin.github.io/wodry/#settings*/
@@ -46,7 +46,7 @@
 
 
     /*==========  BOOTSTRAP FIXED FOR IE10 AND WINDOWS MOBILE  ==========*/
-    
+
 
      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         var msViewportStyle = document.createElement('style')
@@ -56,4 +56,4 @@
     }
 
 
- })(jQuery);   
+ })(jQuery);

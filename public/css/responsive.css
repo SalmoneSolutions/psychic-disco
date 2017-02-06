@@ -12,13 +12,13 @@
 
 
 
-} 
+}
 
 
 
 
 @media (max-width: 767px) {
-  
+
   html {
   	font-size: 80%;
   }
@@ -32,19 +32,12 @@
 
 
 
-@media (max-width: 518px){
-	.header-social-icons{
-		display: none;   /*REMOVE SOCIAL ICON FROM HEADER*/
-	}
-}
-
-
 
 
 
 @media(max-width:480px) {
-    
+
 	html {
 		font-size: 65%;
 	}
-}	
+}
