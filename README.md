@@ -1,3 +1,4 @@
+![header](https://github.com/SalmoneSolutions/psychic-disco/blob/master/public/images/Header.png)
 [![Code Climate](https://codeclimate.com/github/SalmoneSolutions/psychic-disco/badges/gpa.svg)](https://codeclimate.com/github/SalmoneSolutions/psychic-disco)
 [![Test Coverage](https://codeclimate.com/github/SalmoneSolutions/psychic-disco/badges/coverage.svg)](https://codeclimate.com/github/SalmoneSolutions/psychic-disco/coverage)
 # Salmone Solutions
