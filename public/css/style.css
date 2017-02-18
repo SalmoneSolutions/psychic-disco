@@ -100,7 +100,9 @@ body{
 .body-image{
 	max-width: 46%;
 }
-
+#section-5{
+	background:#fff;
+}
 
 /*==========  2.2 PRE-LOADER  ==========*/
 
@@ -204,7 +206,15 @@ li {
 	list-style: none;
 }
 
-
+.img-circle {
+    border-radius: 50%;
+    max-width: 25%;
+    border: 5px solid white;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.client-avater{
+	padding:2%;
+}
 
 /*=========================================
 =           3.COMPONENTS STYLES            =
@@ -229,7 +239,10 @@ li {
 	padding-top: 75px;
 	padding-bottom: 160px;
 }
-
+.small.color-overlay{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .section-heading-white h2, .section-heading-white h4{
   color:#ffffff;
 }
@@ -241,7 +254,10 @@ li {
 	text-decoration: none;
 }
 
-
+#section-5 .container .section-heading{
+	padding-top: 0;
+  padding-bottom:60px;
+}
 .section-heading, .section-heading-white {
 
   padding-top: 60px;
