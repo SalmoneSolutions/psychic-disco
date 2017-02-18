@@ -35,6 +35,6 @@ app.get('/developers',function(req,res){
     res.render('developers')
 })
 app.get('/projects',function(req,res){
-    res.render('index')
+    res.render('projects')
 })
 app.listen(5000)
