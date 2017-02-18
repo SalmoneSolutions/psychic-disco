@@ -1,4 +1,4 @@
-![header](https://github.com/SalmoneSolutions/psychic-disco/blob/master/public/images/Header.png)
+![header](https://github.com/SalmoneSolutions/psychic-disco/blob/master/public/images/readme.png)
 
 #ExpressJS Web APP
 
