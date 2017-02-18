@@ -852,3 +852,9 @@ footer:hover .hover-grow-shadow{
   margin-bottom: 15px;
   margin-top: 15px;
 }
+.black{
+	background:black;
+}
+.black-text{
+	color:black;
+}
