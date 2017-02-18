@@ -26,9 +26,15 @@ app.set('view engine', 'handlebars');
 app.set('views', __dirname+'/views');
 
 app.get('/',function(req,res){
-
-  res.sendfile('index.html')
-
+    res.render('index')
 })
-
+app.get('/pricing',function(req,res){
+    res.render('pricing')
+})
+app.get('/developers',function(req,res){
+    res.render('developers')
+})
+app.get('/projects',function(req,res){
+    res.render('index')
+})
 app.listen(5000)
