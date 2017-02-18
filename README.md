@@ -1,10 +1,9 @@
 ![header](https://github.com/SalmoneSolutions/psychic-disco/blob/master/public/images/Header.png)
+
+#ExpressJS Web APP
+
 [![Code Climate](https://codeclimate.com/github/SalmoneSolutions/psychic-disco/badges/gpa.svg)](https://codeclimate.com/github/SalmoneSolutions/psychic-disco)
 [![Test Coverage](https://codeclimate.com/github/SalmoneSolutions/psychic-disco/badges/coverage.svg)](https://codeclimate.com/github/SalmoneSolutions/psychic-disco/coverage)
-# Salmone Solutions
-
-ExpressJS Web APP
-
 > To run this web application you must have a NodeJS development
 > environment installed.
 > *if you're a windows user*  [*do this*](http://blog.teamtreehouse.com/install-node-js-npm-windows)
