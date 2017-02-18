@@ -8,11 +8,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "cloneDeveloper":"cd developers && gti clone https://github.com/AyabongaQwabi/profile.git && mv profile ayabonga",
-    "cloneProject":"cd projects && gti clone https://github.com/SalmoneSolutions/Gatjie.git && mv Gatjie GetMeThere",
-    "preinstall":"cd developers/ayabonga && npm install",
+    "clone-developer":"cd developers && git clone https://github.com/AyabongaQwabi/profile.git && mv profile ayabonga",
+    "clone-project":"cd projects && git clone https://github.com/SalmoneSolutions/Gatjie.git && mv Gatjie GetMeThere",
+    "clone-submodules":"npm run clone-developer && npm run clone-project",
+    "install-developers-dependencies":"cd developers/ayabonga && npm install",
+    "install-projects-depencdencies":"cd projects/GetMeThere && npm install",
+    "install-submodular-dependencies":"npm run install-developers-dependencies && npm run install-projects-depencdencies",
+    "preinstall":"npm run clone-submodules && npm run install-submodular-dependencies ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall":"cd projects/GetMeThere && npm install",
     "start":"node server.js"
   },
   "repository": {
