@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "clone-developer":"cd developers && git clone https://github.com/AyabongaQwabi/profile.git && mv profile ayabonga",
-    "clone-project":"cd projects && git clone https://github.com/SalmoneSolutions/Gatjie.git && mv Gatjie GetMeThere",
+    "clone-developer":"cd developers && git clone https://github.com/AyabongaQwabi/profile.git && mv profile ./ayabonga",
+    "clone-project":"cd projects && git clone https://github.com/SalmoneSolutions/Gatjie.git && mv Gatjie ./GetMeThere",
     "clone-submodules":"npm run clone-developer && npm run clone-project",
     "install-developers-dependencies":"cd developers/ayabonga && npm install",
     "install-projects-depencdencies":"cd projects/GetMeThere && npm install",
