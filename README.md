@@ -25,4 +25,4 @@ Installation
 
 
 
-> Please note you will have to configure your firewall settings to runn the app on this port 8080
+> Please note you will have to configure your firewall settings to run the app on this port 8080
